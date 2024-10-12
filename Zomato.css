@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding : 0px;
+
+}
+header{
+    width:100%;
+    height: 650px;
+    background-image:  url(/Images/img13-2.jpg) ;
+    background-size: cover;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+}
+header{
+   background:  
+}
+@keyframes animate{
+    0%{ opacity: 0;}
+    100%{
+        opacity: 1;
+    }
+
+}
+header{
+
+}
+.navber{
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navber a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+
+} 
+.div1{
+    height: 400px;
+    display: flex;
+    padding-top: 15px;
+    padding-right: 50px;
+    
+}
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    width: 200px;
+}
+
+
+/* .img1{
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    height: 100px;
+    width: 400px;
+   background-image: url("/Images/logo1-removebg-preview\(1\).png");
+   background-size: cover;
+}   */
+#h-1{
+    margin-top :13px;
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 3px #000000, 0 0 1px #000000;
+    /* font-weight: bold; */
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left:42%;
+    height: 80px;
+    width:350px;
+    background-image: url(/Images/logomain.png);
+    background-size: cover;
+    
+}
+.middlepart1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.para1{
+    color:#292727;
+    display: flex;
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    
+}
+#India{
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+}
+#Location{
+    opacity: 1;
+}
+.middlepart2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para2 {
+    color: grey;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1100px;
+    height: 60px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+}
+.middlepart3{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-left:10px;
+    border: 0.5px solid rgb(187, 183, 183);
+    height: 60px;
+    width: 340px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    box-shadow: 0 1px 2px rgba(56, 54, 54, 0.15);
+    transition: box-shadow 0.2s linear;
+}
+.city{
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    box-shadow: 0 3px 5px rgba(169, 166, 166, 0.8);
+    
+}
+.foot-panel1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top:0.3px solid white;
+    background-color:rgb(248, 248, 248);;
+    color:white;
+    height: 70px;
+}
+.logo2{
+    background-image: url(/Images/logo2.png);
+    background-size: cover;
+    height:50px;
+    width: 200px;
+}
+.Nation{
+    font-size: 1.5rem;
+    color:#2d2a2a;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    border:0.5px solid rgb(0, 0, 0);
+}
+.img {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.ind{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    font-size: 1rem;
+    font-family:sans-serif;
+    display: flex;
+    flex-shrink: 1;;
+    justify-content: space-evenly;
+    background-color:rgb(248, 248, 248);;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    height: 330px;
+}
+ul{
+    margin-top: 50px;
+}
+.foot-panel2 a{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;  
+    color:#000000;
+}
+#Enterprise{
+    padding-top:20px
+}
+#icons{
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+}
+ul img{
+    height:35px;
+    width:130px;
+}
+.foot-panel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height:30px;
+    background-color: rgb(248, 248, 248);;
+}
+#copyright{
+    border-top:1px solid grey;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.soumyajit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* media quiries */
+
+@media (max-width: 480px) {
+    /* Adjust styles for mobile devices */
+    header {
+      height: 300px; /* Reduce header height */
+    }
+    .navber {
+      flex-direction: column; /* Stack navigation items vertically */
+    }
+    .div1 {
+      flex-direction: column; /* Stack content elements vertically */
+    }
+    .para1 {
+      font-size: 28px; /* Reduce paragraph font size */
+    }
+    .middlepart2 {
+      flex-direction: column; /* Stack middle part elements vertically */
+    }
+    .box {
+      width: 280px; /* Reduce box width */
+    }
+    .foot-panel2 {
+      flex-direction: column; /* Stack footer elements vertically */
+    }
+    /* Add more specific adjustments as needed */
+  }
+
+
+  @media (min-width: 481px) and (max-width: 1023px) {
+    /* Adjust styles for tablets */
+    header {
+      height: 400px; /* Increase header height compared to mobile */
+    }
+    /* Add tablet-specific adjustments */
+  }
+
+
+  @media (min-width: 1024px) {
+    /* Adjust styles for desktop */
+    /* You might not need many changes here, as the original styles might be suitable */
+    /* But you can add adjustments if necessary */
+  }
